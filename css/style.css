@@ -1,0 +1,90 @@
+body{
+    background:  linear-gradient(110deg, #2d2c2f 50%  , #3e3e3e 40%)
+}
+.Content{
+    margin: auto;
+    margin-top: 1%;
+    height: 630px;
+    border-radius: 20px ;
+    overflow: hidden;
+}
+.Content .Side {
+    background-color: #3a3a3a;
+    left: -15px;
+}
+.Content .Side button{
+    background-color: transparent;
+    margin-top: 30px;
+}
+.Content .Side button span{
+    font-size: 25px;
+}
+.Content .Side button span:hover{
+    color: whitesmoke;
+}
+/******************************************************************/
+.Content .Data{
+    background-color: #2d2c2f;
+}
+.Content .Data .RightSide {
+    background-color: #2d2c2f;
+
+}
+
+.RightSide .Top , .Content .Data .RightSide .Under   {
+    background-color: #2d2c2f;
+    height: 120px;
+    color: white;
+    border-radius: 9px;
+    box-shadow: 10px 10px 10px black;
+    margin-top: 10px;
+}
+.Content .Data .RightSide .Top:hover , .Content .Data .RightSide .Under:hover{
+    transition: 0.5s;
+    box-shadow: 20px 20px 30px black;
+
+
+}
+
+.Content .Data  .LeftSide{
+    background-color: #2d2c2f;
+    box-shadow: 10px 10px 20px black;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.Content .Data  .LeftSide:hover{
+    transition: 0.5s;
+    box-shadow: 20px 20px 30px black;
+}
+
+#LineChart{  
+    height: 70px !important;
+}
+#BarChart{
+    height: 206px !important;   
+}
+/****************************************************************************/
+.Data .Speed{
+    height: 320px;
+    background-color: #2d2c2f;
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px black;
+
+}
+.LIST ul{
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px black;
+}
+.LIST ul li{
+    color: black;
+    background-color: #2d2c2f;
+}
+.LIST ul li span:nth-child(4){
+    color: red;
+}
+.LIST ul li:hover{
+    color: white;
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
